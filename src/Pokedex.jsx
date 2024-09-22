@@ -3,7 +3,7 @@ import useFetchPokemon from './hooks/useFetchPokemon'
 import PokemonCard from './components/PokemonCard';
 
 const Pokedex = () => {
-  const { pokemon, isLoading } = useFetchPokemon();
+  const { pokemon, isLoading, nextData } = useFetchPokemon();
   
   if (isLoading) return <h2>Cargando...</h2>
 
@@ -22,7 +22,9 @@ const Pokedex = () => {
               </div>
             ))
           }
+           <button className='btn btn-primary' style={{margin: '10px'}} onClick={nextData}>Mas pokemon</button>
         </div>
+       
       </div>
     </div>
   )

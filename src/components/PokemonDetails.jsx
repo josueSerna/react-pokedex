@@ -32,7 +32,7 @@ const PokemonDetails = () => {
                 ))
             }
          </div>
-         <button onClick={onBackPokedex}>Back to Pokedex</button>
+         <button className="btn btn-success" onClick={onBackPokedex}>Back to Pokedex</button>
       </div>
     </div>
   )
