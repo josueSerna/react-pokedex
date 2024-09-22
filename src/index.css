@@ -149,3 +149,16 @@ div.type_color {
   }
   
   /* Pokemon detalles */
+  .stat-bar {
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    overflow: hidden;
+    height: 20px;
+    margin-bottom: 5px;
+  }
+  
+  .stat-fill {
+    height: 100%;
+    border-radius: 5px;
+  }
+  
